@@ -237,7 +237,7 @@ img {
 .functional-list-item,
 .employees-list {
 	list-style: none;
-	gap: 30px;
+	
 }
 
 .about {
@@ -303,12 +303,12 @@ img {
 	margin: 0;
 	list-style: none;
 	margin-top: calc(-1 * var(--card-set-gap));
-	/* margin-left: calc(-1 * var(--card-set-gap)); */
+	margin-left: calc(-1 * var(--card-set-gap));
 }
 
 .employees-list > .employees-card {
 	flex-basis: calc(100% / 4 - var(--card-set-gap));
-	/* margin-left: var(--card-set-gap); */
+	margin-left: var(--card-set-gap);
 	margin-top: var(--card-set-gap);
 }
 
